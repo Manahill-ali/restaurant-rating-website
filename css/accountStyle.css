@@ -1,0 +1,52 @@
+/* Account */
+.special-text{
+    color:rgb(78, 16, 16) ;
+}
+#showcase-account {
+    color: black;
+    text-align: center;
+}
+#showcase-account .create-account{
+    height: 550px;
+    padding-top: 55px;
+}
+#showcase-account .log-in{
+    height: 550px;
+    padding-top: 55px;
+}
+.log-in h1 , .create-account h1{
+    padding-top: 30px;
+    font-size: 50px
+}
+.log-in .form-content,
+.create-account .form-content{
+    padding-top: 70px; 
+}
+#log-in label, 
+#create-account label {
+    display: block;
+    margin-bottom: 5px;
+    /* padding: 5px 10px; */
+}
+#log-in input,
+#create-account input{
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#log-in input:focus,
+#create-account input:focus{
+ outline: none;
+ border-color: rgb(255, 139, 139);
+}
+.account-button{
+    background-color: rgb(29, 22, 22);
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 100px; 
+    display: inline-block;
+    border-radius: 5px;
+    
+}
+.account-button:hover{
+    background: rgb(204, 164, 112);
+}

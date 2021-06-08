@@ -1,0 +1,97 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+
+/* main styling */
+html,body{
+    font-family: 'Playfair Display', serif;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+.container{
+    margin: auto;
+    /* الماكس ويذ تخلي اللوقو توقف عند مكان معين معاش تتحرك لما توسعي الصفحة  */
+    max-width: 1100px;
+}
+
+.button{
+        display: inline-block;
+        color: #fff;
+        background-color: rgb(14, 14, 14);
+        padding: 13px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+.button:hover{
+    background-color:#f7c08a;
+    color: rgb(14, 14, 14);
+}
+
+ /* navbar  */
+#navbar{
+    background: rgb(14, 14, 14);
+    color:#fff;
+    overflow: auto;
+    position: sticky;
+} 
+#navbar a{
+    color: #fff;
+}
+#navbar .logo{
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul{
+    float: right;
+    list-style:none; 
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding:20px;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: rgb(58, 37, 37);
+    color: #fff;
+}
+
+input{
+    padding: 6px 4px;
+    width: 70%;
+    border-radius: 20px;
+} 
+
+#h1dark{
+    color: rgb(255, 255, 255);
+}
+#h1light{
+    color: #ffc790;
+    opacity: 0.7;
+} 
+
+
+
+
+/* footer */
+#main-footer{
+    text-align: center;
+    background: rgb(14, 14, 14);
+    color: #fff;
+    padding: 20px;
+}

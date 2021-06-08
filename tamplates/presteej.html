@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/mainStyle.css">
+    <link rel="stylesheet" href="/css/flip.css">
+    <link rel="stylesheet" href="/css/restaurants.css">
+    <link rel="stylesheet" href="/css/styleOFcomments.css">
+    <link rel="stylesheet" href="/css/styleOFrating.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Presteej - برستيج</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="/tamplates/index.html" style="text-decoration: none;">V&R</a> </h1> 
+          <ul>
+              <li><a href="/tamplates/index.html" style="text-decoration: none;">Home</a></li>
+              <li><a href="/tamplates/your_account.html" style="text-decoration: none;">Your Account</a></li>
+        </ul> 
+        </div>
+    </nav>  
+
+   <div id="presteej-container">
+
+          <section id="presteej-showcase">
+              <div id="aboutpresteej" class="aboutpresteej">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <img src="../images/pr.jpg" alt="Avatar" style="width:350px;height:570px;">
+                        </div>
+                        <div class="flip-card-back">
+                          <h1>Presteej - برستيج</h1> 
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam voluptas tempore exercitationem enim 
+                              error reprehenderit, amet atque laborum aperiam nulla dolorem debitis quas qui. Nulla illo sint atque 
+                                                      laudantium delectus?</p>
+                        </div>
+                      </div>
+                    </div> 
+              </div>
+          </section>
+          <section id="rating-commentsOfpresteej" class="rating-commentsOfpresteej">
+              <div id="ratingpresteej" class="ContainerOfrating">  
+                <div class="form-group">
+                  <select id="term-select" class="form-control custom-select">
+                      <option value="0" disabled selected>Which Term?</option>
+                      <option value="Cleanliness">Cleanliness</option>
+                      <option value="Food">Food</option>
+                      <option value="Prices">Prices</option>
+                      <option value="Services">Services</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <input type="number" id="rating-control" class="form-control" step="0.1" max="5" placeholder="Rate 1 - 5" disabled>
+                </div>
+                <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>In terms of..</th>
+                          <th>Rating</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                          <tr class="Cleanliness">
+                            <td>Cleanliness</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="Food">
+                            <td>Food</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="Prices">
+                            <td>Prices</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                          <tr class="Services">
+                            <td>Services</td>
+                            <td>
+                              <div class="stars-outer">
+                                <div class="stars-inner"></div>
+                              </div>
+                              <span class="number-rating"></span>
+                            </td>
+                          </tr>
+                      </tbody>
+                </table>
+        </div>
+
+            <div class="containerOFcomments">
+              <h2>Leave Us a Comment please!</h2>
+                <div class="add-comments">
+                    <input id="add" type="text" placeholder="add a comment...">
+                    <button id="btn">Add</button>
+                </div>
+                <div class="comments-list">
+                    <ul id="list">
+                        <li>i like this website :)</li>
+                        <li>this resturant is awsome!</li>
+                    </ul>
+                </div>
+        </section>
+    </div>
+
+
+    <!--* Footer *-->
+    <footer id="main-footer">
+         <p>Our Web Design Project Assignment &copy; 2021, All Rights reserved</p>
+    </footer>
+
+    <!--* JavaScript Files Links *-->
+    <script src="/js/comments.js"></script>
+    <script src="/js/rating.js"></script>
+</body>
+</html>

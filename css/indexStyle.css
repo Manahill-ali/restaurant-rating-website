@@ -1,0 +1,162 @@
+/* Index showcase */
+#showcase{
+    background: #333 url('../images/class.jpg')  
+    no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 1); */
+}
+
+.showcase-content h1{
+    font-size: 65px;
+    line-height: 1.2em;
+    padding: 13px 20px;
+    text-align: center;
+    display: inline-block;
+}
+.showcase-content input{
+        padding: 10px 15px;
+        font-size: 18px;
+        
+}
+#showcase .showcase-content{
+    height: 100%;
+    text-align: center;
+    padding-top: 170px;
+}
+#showcase .showcase-content p{
+    line-height: 1.7;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+/* resturants sections */
+#presteej-taqseem-karamBirout{
+    height: 650px;
+    background-color: rgb(14, 14, 14);
+}
+#presteej-taqseem-karamBirout .karamBirout{
+    text-align: center;
+    padding-top: 235px;
+    float: right;
+    width: 33.3%;
+    background: url('../images/ka2.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    border-radius: 333.333%;
+    color: rgb(29, 22, 22);
+    font-size: large
+}
+#presteej-taqseem-karamBirout .presteej{
+    text-align: center;
+    padding-top: 235px;
+    float:left;
+    width: 33.3%;
+    background: url('../images/pr2.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    border-radius: 333.333%;
+    color: rgb(29, 22, 22);
+    font-size: large
+}  
+#presteej-taqseem-karamBirout .taqseem{
+    text-align: center;
+    padding-top: 235px;
+    float:left;
+    width: 33.3%;
+    background: url('../images/taq1.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    border-radius: 333.333%;
+    color: rgb(29, 22, 22);
+    font-size: large
+}
+
+#abulaila-fornello-roubian{
+    height: 650px;
+    background-color: rgb(204, 164, 112);
+}
+#abulaila-fornello-roubian .abulaila{
+    color: rgb(14, 14, 14);
+    text-align: center;
+    padding-top: 235px;
+    float: left;
+    width: 33.3%;
+    background: url('../images/abu.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    border-radius: 333.333%;
+}
+#abulaila-fornello-roubian .fornello{
+    color: rgb(14, 14, 14);
+    text-align: center;
+    padding-top: 235px;
+    float: left;
+    width: 33.3%;
+    background: url('../images/frn1.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    border-radius: 333.333%;
+}
+#abulaila-fornello-roubian .roubian{
+    color: rgb(14, 14, 14);
+    text-align: center;
+    padding-top: 235px;
+    float: right;
+    width: 33.3%;
+    background: url('../images/ro4.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    border-radius: 333.333%;
+}
+#atHome-laRambla{
+    height: 650px;
+    background-color: rgb(14, 14, 14);
+}
+#atHome-laRambla .atHome{
+    color: #fff;
+    text-align: center;
+    padding-top: 235px;
+    float: right;
+    width: 50%;
+    background: url('../images/at4.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    border-radius: 500px;
+}
+#atHome-laRambla .laRambla{
+    color: #fff;
+    text-align: center;
+    padding-top: 235px;
+    float: left;
+    width: 50%;
+    background: url('../images/la2.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    /* position: relative; */
+    border-radius: 500px;
+}
+#mozart-eleanor{
+    height: 650px;
+    background-color: rgb(204, 164, 112);
+}
+#mozart-eleanor .mozart{
+    text-align: center;
+    padding-top: 235px;
+    float: right;
+    width: 50%;
+    background: url('../images/moz2.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    position: relative;
+    color: rgb(29, 22, 22);
+    font-size: large; 
+    border-radius: 50%;
+}
+#mozart-eleanor .eleanor{
+    text-align: center;
+    padding-top: 235px;
+    float: left;
+    width: 50%;
+    background: url('../images/ele1.jpg') no-repeat center center/cover;
+    min-height: 100%;
+    position: relative;
+    color: rgb(29, 22, 22);
+    font-size: large;
+    border-radius: 50%;
+}
+

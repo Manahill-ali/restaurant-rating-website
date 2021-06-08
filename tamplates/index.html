@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/indexStyle.css">
+    <link rel="stylesheet" type="text/css" href="/css/mainStyle.css">
+    <title>Find, visit & Review</title>
+</head>
+<body>
+    
+    <!--* navigation bar *-->
+    <nav id="navbar">
+        <div class="container">
+            <h1 class="logo"><a href="/tamplates/index.html">V&R</a> </h1> 
+            <ul>
+                <li><a class="current" href="/tamplates/index.html">Home</a></li>
+                <li><a href="/tamplates/your_account.html">Your Account</a></li>
+            </ul> 
+        </div>
+    </nav>
+    
+    <!--* header : showcase *-->
+    <header>
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1><a id="h1dark">FIND Visit </a> <a id="h1light">Then</a> <a id="h1dark">REVIEW</a></h1>
+                    <input type="text" id="field_id" list="Search" > <br>
+                    <select onchange="selectFromOptions (this.value)">
+                        <option disabled selected>Resturants & Cafes</option>
+                        <option value="presteej.html">presteej-برستيج</option>
+                        <option value="taqseem.html">taqseem-تقسيم</option>
+                        <option value="karamBirout.html">karamBirout-كرم بيروت</option>
+                        <option value="fornello.html">fornello-فرنيلو</option>
+                        <option value="abulaila.html">abulaila-ابوليلة</option>
+                        <option value="roubian.html">roubian-الروبيان</option>
+                        <option value="laRambla.html">larambla-لارمبلا</option>
+                        <option value="eleanor.html">eleanor-الينور</option>
+                        <option value="atHome.html">at home-ات هوم</option>
+                        <option value="mozart.html">mozart-موزارت</option>
+                    </select>
+                    <!-- <datalist id="Search"> -->
+                        <!-- <option disabled selected>Resturants & Cafes</option>
+                        <option value="presteej.html">presteej-برستيج</option>
+                        <option value="taqseem.html">taqseem-تقسيم</option>
+                        <option value="karamBirout.html">karamBirout-كرم بيروت</option>
+                        <option value="fornello.html">fornello-فرنيلو</option>
+                        <option value="abulaila.html">abulaila-ابوليلة</option>
+                        <option value="roubian.html">roubian-الروبيان</option>
+                        <option value="laRambla.html">larambla-لارمبلا</option>
+                        <option value="eleanor.html">eleanor-الينور</option>
+                        <option value="atHome.html">at home-ات هوم</option>
+                        <option value="mozart.html">mozart-موزارت</option> -->
+                    <!-- </datalist>    -->
+               
+                    <p>  the best places to eat & drink in tripoli</p>
+                    <p class="lead">جد أفضل الأماكن التي تقدم المأكولات والمشروبات في طرابلس</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+     <!--* Resturants Sections *-->
+    <div id="resturants-sections">
+         <section id="presteej-taqseem-karamBirout" class="presteej%taqseem&karamBirout">
+                <div id="presteej" class="presteej">
+                    <h1>presteej|برستيج</h1>
+                    <a href="/tamplates/presteej.html" class="button">See More</a>
+                </div>
+                <div id="taqseem" class="taqseem">
+                    <h1>taqseem|تقسيم</h1>
+                    <a href="/tamplates/taqseem.html" class="button">See More</a>
+                </div>
+                <div id="karamBirout" class="karamBirout">
+                     <h1>karamBirout|كرم بيروت</h1>
+                     <a href="/tamplates/karamBirout.html" class="button">See More</a>
+                </div>
+         </section>
+         <section id="abulaila-fornello-roubian" class="abulaila&fornello&roubian">
+                <div id="abulaila" class="abulaila">
+                   <h1>مطعم ابوليلة</h1>
+                   <a href="/tamplates/abulaila.html" class="button">See More</a>
+                </div>
+                <div id="fornello" class="fornello">
+                    <h1>Fornello-فرنيلو</h1>
+                    <a href="/tamplates/fornello.html" class="button">See More</a>
+                </div>
+                <div id="roubian" class="roubian">
+                   <h1>الروبيان</h1>
+                   <a href="/tamplates/roubian.html" class="button">See More</a>
+                </div>   
+         </section>
+         <section id="atHome-laRambla" class="atHome&laRambla">
+                <div id="atHome" class="atHome">
+                   <h1>atHome</h1>
+                   <a href="/tamplates/atHome.html" class="button">See More</a>
+                </div>
+                <div id="laRambla" class="laRambla">
+                    <h1>laRambla</h1>
+                    <a href="/tamplates/laRambla.html" class="button">See More</a>
+                </div>
+          </section>
+          <section id="mozart-eleanor" class="mozart-eleanor">
+                <div id="mozart" class="mozart">
+                   <h1>mozart|موزارت</h1>
+                   <a href="/tamplates/mozart.html" class="button">See More</a>
+                </div>
+                <div id="eleanor" class="eleanor">
+                    <h1>eleanor|الينور</h1>
+                    <a href="/tamplates/eleanor.html" class="button">See More</a>
+                </div>
+          </section> 
+    </div>
+    
+
+    <!-- <script>
+        var fieldInput = document.getElementById("field_id");
+        
+        fieldInput.addEventListener('keyup', function(e) { if (isKeyboardEvent(e)) { myFunction(); } });
+        
+        function isKeyboardEvent(e) {
+            return (e instanceof KeyboardEvent);
+        }
+        
+        function myFunction() {
+        //    the action you want to
+        window.location.href = "eleanor.html";
+        }
+        </script> -->
+
+    <!--* Footer *-->
+    <footer id="main-footer">
+     <p>Our Web Design Project Assignment &copy; 2021, All Rights reserved</p>
+    </footer>
+
+    <!--* JavaScript File Link *-->
+    <script src="/js/main.js"></script>
+</body>
+</html>
